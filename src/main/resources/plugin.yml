@@ -1,0 +1,19 @@
+name: InventoryLevel
+version: '${project.version}'
+main: dev.aztecsolutions.inventorylevel.InventoryLevel
+api-version: '1.20'
+authors: [BerserkZak]
+description: Gives inventories levels
+permissions:
+  aztecsolutions.levels.1:
+    description: Allows access to level 1 inventory.
+    default: true
+  aztecsolutions.levels.2:
+    description: Allows access to level 2 inventory.
+    default: false
+  aztecsolutions.levels.3:
+    description: Allows access to level 3 inventory.
+    default: false
+  aztecsolutions.levels.4:
+    description: Allows access to level 4 inventory.
+    default: false
