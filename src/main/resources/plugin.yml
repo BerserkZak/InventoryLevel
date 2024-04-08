@@ -1,6 +1,6 @@
 name: InventoryLevel
 version: '${project.version}'
-main: dev.aztecsolutions.inventorylevel.InventoryLevel
+main: dev.aztecsolutions.inventorylevel.core.InventoryLevel
 api-version: '1.20'
 authors: [BerserkZak]
 description: Gives inventories levels
