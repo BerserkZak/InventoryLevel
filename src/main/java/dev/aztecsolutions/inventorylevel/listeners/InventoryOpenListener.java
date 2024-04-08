@@ -1,5 +1,6 @@
 package dev.aztecsolutions.inventorylevel.listeners;
 
+import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -16,6 +17,7 @@ public class InventoryOpenListener implements Listener {
 
         if (!playerInventory.equals(InventoryType.ENDER_CHEST)) {
             if (player.hasPermission("aztecsolutions.levels.1")) {
+                player.getInventory().close();
             }
 
     }
