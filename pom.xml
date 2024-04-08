@@ -6,7 +6,7 @@
 
   <groupId>dev.aztecsolutions</groupId>
   <artifactId>InventoryLevel</artifactId>
-  <version>1.0-build#2</version>
+  <version>1.0-build#3</version>
   <packaging>jar</packaging>
 
   <name>InventoryLevel</name>

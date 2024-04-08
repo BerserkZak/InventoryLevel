@@ -1,13 +1,12 @@
 package dev.aztecsolutions.inventorylevel.listeners;
 
-import org.bukkit.command.Command;
-import org.bukkit.command.CommandExecutor;
-import org.bukkit.command.CommandSender;
-import org.jetbrains.annotations.NotNull;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.inventory.InventoryOpenEvent;
 
-public class InventoryOpenListener implements CommandExecutor {
-    @Override
-    public boolean onCommand(@NotNull CommandSender commandSender, @NotNull Command command, @NotNull String s, @NotNull String[] strings) {
-        return false;
+public class InventoryOpenListener implements Listener {
+    @EventHandler
+    public void onPlayerOpeningEnderchest(InventoryOpenEvent e){
+
     }
 }
